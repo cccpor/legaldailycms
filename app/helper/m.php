@@ -196,7 +196,7 @@ class M {
 	 */
 	public function clean () {
 		if ( !empty($this->_data) ) $this->_data = array();
-
+		// do not do this
 		if ( !empty($this->_nequals) ) $this->_nequals = array();
 		if ( !empty($this->_equals) )  $this->_equals  = array();
 		if ( !empty($this->_ranges) )  $this->_ranges  = array();
