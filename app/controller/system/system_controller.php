@@ -17,7 +17,7 @@ class Controller_System_System extends Controller_Abstract {
 				if ( empty($v) ) continue;
 				SystemAudit::create(array('group'=>$group, 'service'=>$v), 'SystemACL', $loguid);
 			}
-			
+			// KNOCK KNOCK
 			return $this->_redirectMessage('提示', '指定群组权限配置成功！', url('system::system/acl', array('group'=>$group)), 5);
 		} else {
 			$guuid = $this->_context->query('group', '');
