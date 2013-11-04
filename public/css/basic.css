@@ -1,0 +1,47 @@
+@charset "utf-8";
+.transparent { background:rgba(0, 0, 0, 0.8) none repeat scroll 0 0 !important; filter:Alpha(opacity=80); background:#000; } /*透明背景*/
+body,div,ul,li,p,h1,h2,h3,h4,h5,h6,table,tbody,tr,tr,td,ol,dl,dt,dd,fieldset,legend { margin:0; padding:0; }
+body { text-align:center; font-family:"Lucida Grande",Helvetica,Arial,Verdana,sans-serif; }
+table { border-collapse:collapse; border-spacing:0; }
+ul,li { list-style-type:none; text-align:left; }
+a { text-decoration:none; color:#0080ff; }
+
+#BASICWRAPPER,#LRWRAPPER { width:1024px; padding:0; margin:0 auto; border-collapse:collapse; border-spacing:0; }
+#LWRAPPER { width:30%; background-color:gray; }
+#RWRAPPER { width:70%; background-color:#ccc; }
+
+table.list-table { border:1px solid #ccc; width:100%; }
+table.list-table td { padding:5px; text-align:left; border:1px solid #ccc; }
+table.list-table td label { font-size:14px; font-weight:bold; color:#ccc; }
+table.list-table th { background-color:#ccc; text-align:center; }
+
+/* form-style : start */
+form fieldset { border:none; }
+form legend   { width:100%; background-color:gray; color:white; height:25px; line-height:25px; text-align:center; }
+form dl { border:1px solid gray; border-top:none; padding-top:5px; }
+form dt { float:left; width:150px; text-align:right; }
+form dd { margin-bottom:5px; text-align:left; }
+form dd input[type="text"],form dd input[type="password"],form dd textarea { border:1px solid gray; width:60%; }
+form dd input[type="submit"], form dd input[type="button"] { background-color:gray; color:white; border:none; padding:2px 10px; }
+/* form-style : end   */
+
+.warning { color:red; font-size:14px; font-weight:bold; } /*页面显示的警告信息样式*/
+.blank { clear:both; } /*空标记样式*/
+.func-title { color:black; } /*页面功能标题样式*/
+
+#legal-system-select-wrapper { background-color:white; position:absolute; left:20px; top:50px; width:500px; border:2px solid gray; border-radius:5px; } /*系统ajax选择样式*/
+#legal-system-select-wrapper p.pannel { text-align:right; background-color:#ccc; height:30px; line-height:30px; }
+#legal-system-select-wrapper p.pannel a { color:black; font-size:17px; font-weight:bold; margin:3px 20px; }
+
+#legal-system-select-wrapper ul.path { clear:both; heiht:30px; line-height:30px; }
+#legal-system-select-wrapper ul.path li { float:left; padding:5px; list-style-type:dot; }
+#legal-system-select-wrapper ul.path li a { color:gray; font-size:15px; }
+
+#legal-system-select-wrapper ul.direct { clear:both; height:30px; line-height:30px; }
+#legal-system-select-wrapper ul.direct li {  float:left; width:100px; padding:2px 10px; text-align:center;  }
+#legal-system-select-wrapper ul.direct li a { color:black; font-size:13px; }
+
+#legal-system-select-wrapper ul.pagination { clear:both; height:30px; line-height:30px; }
+#legal-system-select-wrapper ul.pagination li {}
+#legal-system-select-wrapper ul.pagination li a { color:black; }
+
